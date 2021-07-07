@@ -70,7 +70,8 @@ Unique 값인 비행기의 tailnum 값을 이용해 flights와 planes 테이블�
 
 
 ## Recommendation
-![recommend](https://user-images.githubusercontent.com/33015847/124713531-a1781c80-df3b-11eb-8c19-2071eff8dc02.JPG)
+![recommend](https://user-images.githubusercontent.com/33015847/124717193-dab28b80-df3f-11eb-9f2a-bc983050f809.JPG)
+
 
 
 
