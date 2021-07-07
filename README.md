@@ -1,6 +1,6 @@
 # sql_
 
-Assignment: Analyzing Big Data with SQL
+Assignment: Analyzing Big Data with SQL   
 Name: 박철우
 
 Assignment
