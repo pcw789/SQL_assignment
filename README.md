@@ -34,6 +34,25 @@ Description: Information about various aircraft, which might or might not be inc
 Number of rows: 453,361   
 ![planes](https://user-images.githubusercontent.com/33015847/124713398-78578c00-df3b-11eb-8a43-0da1cb7ba54a.JPG)
 
+## Method
+
+**SELECT**    
+  origin,    
+  dest,    
+  AVG(distance) AS avg_distance,   
+  ROUND(COUNT(*)/10) AS avg_num_flights,   
+  ROUND(SUM(seats)/10) AS annual_passenger_capacity,   
+  ROUND(AVG(arr_delay),1) AS avg_arr_delay   
+     
+     
+**FROM** fly.flights AS f JOIN fly.planes AS p ON f.tailnum=p.tailnum    
+**WHERE** distance BETWEEN 300 AND 400    
+**GROUP BY** origin, dest    
+**HAVING** COUNT(*)/10  > 5000   
+**ORDER BY** SUM(seats) DESC    
+;
+
+
 ## Recommendation
 ![recommend](https://user-images.githubusercontent.com/33015847/124713531-a1781c80-df3b-11eb-8c19-2071eff8dc02.JPG)
 
