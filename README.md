@@ -45,12 +45,22 @@ Number of rows: 453,361
   ROUND(AVG(arr_delay),1) AS avg_arr_delay   
      
      
-**FROM** fly.flights AS f JOIN fly.planes AS p ON f.tailnum=p.tailnum    
+**FROM** fly.flights **AS** f **OUTER JOIN** fly.planes **AS** p **ON** f.tailnum=p.tailnum    
 **WHERE** distance BETWEEN 300 AND 400    
 **GROUP BY** origin, dest    
 **HAVING** COUNT(*)/10  > 5000   
 **ORDER BY** SUM(seats) DESC    
-;
+;   
+
+
+![sql](https://user-images.githubusercontent.com/33015847/124715724-41cf4080-df3e-11eb-8090-e6a1ebca1af0.JPG)
+
+
+## Result
+
+
+![result](https://user-images.githubusercontent.com/33015847/124715770-4d226c00-df3e-11eb-89f1-12dd5267a635.JPG)
+
 
 
 ## Recommendation
