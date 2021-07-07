@@ -16,8 +16,26 @@ Recommend which pair of United States airports should be connected with a high-s
 1. 두 공항 간의 거리는 300~400 miles 내에 있어야 한다.   
 2. 공항의 일년 평균 이용객이 5000명 이상이어야 한다.
 
+## Tables
+
+
+Table: flights   
+Description: Data on all domestic flights by major US air carriers for the full decade from January 1, 2008 through December 31, 2017   
+
+
+Number of rows: 61,392,822   
+![flight](https://user-images.githubusercontent.com/33015847/124713389-72fa4180-df3b-11eb-9743-d10521255290.JPG)
+
+
+Table: planes   
+Description: Information about various aircraft, which might or might not be included in the flights table   
+
+
+Number of rows: 453,361
+![planes](https://user-images.githubusercontent.com/33015847/124713398-78578c00-df3b-11eb-8a43-0da1cb7ba54a.JPG)
+
 ## Recommendation
 ![recommend](https://user-images.githubusercontent.com/33015847/124713531-a1781c80-df3b-11eb-8c19-2071eff8dc02.JPG)
 
-![flight](https://user-images.githubusercontent.com/33015847/124713389-72fa4180-df3b-11eb-9743-d10521255290.JPG)
-![planes](https://user-images.githubusercontent.com/33015847/124713398-78578c00-df3b-11eb-8a43-0da1cb7ba54a.JPG)
+
+
