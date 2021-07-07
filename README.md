@@ -19,7 +19,7 @@ Recommend which pair of United States airports should be connected with a high-s
 ## Tables
 
 
-####Table: flights   
+#### Table: flights   
 Description: Data on all domestic flights by major US air carriers for the full decade from January 1, 2008 through December 31, 2017   
 
 
@@ -27,7 +27,7 @@ Number of rows: 61,392,822
 ![flight](https://user-images.githubusercontent.com/33015847/124713389-72fa4180-df3b-11eb-9743-d10521255290.JPG)
 
 
-####Table: planes   
+#### Table: planes   
 Description: Information about various aircraft, which might or might not be included in the flights table   
 
 
