@@ -31,7 +31,7 @@ Table: planes
 Description: Information about various aircraft, which might or might not be included in the flights table   
 
 
-Number of rows: 453,361
+Number of rows: 453,361   
 ![planes](https://user-images.githubusercontent.com/33015847/124713398-78578c00-df3b-11eb-8a43-0da1cb7ba54a.JPG)
 
 ## Recommendation
