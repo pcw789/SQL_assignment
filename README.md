@@ -45,7 +45,7 @@ Number of rows: 453,361
   ROUND(AVG(arr_delay),1) AS avg_arr_delay   
      
      
-**FROM** fly.flights **AS** f **OUTER JOIN** fly.planes **AS** p **ON** f.tailnum=p.tailnum    
+**FROM** fly.flights **AS** f **LEFT JOIN** fly.planes **AS** p **ON** f.tailnum=p.tailnum    
 **WHERE** distance BETWEEN 300 AND 400    
 **GROUP BY** origin, dest    
 **HAVING** COUNT(*)/10  > 5000   
