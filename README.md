@@ -38,6 +38,10 @@ Number of rows: 453,361
 
 ## Method
 
+Unique 값인 비행기의 tailnum 값을 이용해 flights와 planes 테이블을 JOIN한다.   
+10년 동안 기록된 데이터이기 때문에 연평균 데이터를 구하기 위해 10을 나누어준다.   
+조건 설정, 그룹화 및 정렬    
+
 **SELECT**    
   origin,    
   dest,    
